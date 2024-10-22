@@ -1,0 +1,28 @@
+.button {
+    width: max-content;
+    height: fit-content;
+    padding: 0.5rem 1rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: .2s;
+    border-radius: 0.5rem;
+
+    &:hover{
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+
+    &--rounded{
+        border-radius: 2rem;
+    }
+
+    &--mini{
+        padding: 0.4rem 0.8rem;
+    }
+
+    &--mini &__label{
+        font-size: 0.8rem;
+    }
+
+    &__label {
+        margin: 0;
+    }
+}

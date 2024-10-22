@@ -1,0 +1,66 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  &__couple {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  &__label {
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  &__input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+
+    &--fixed {
+      width: 200px;
+    }
+  }
+
+  &__error {
+    color: red;
+    font-size: 14px;
+    margin-top: 4px;
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  &__capital-buttons {
+    display: flex;
+    gap: 8px;
+  }
+
+  &__capital-button {
+    padding: 8px 12px;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: white;
+    color: #007bff;
+    transition: background-color 0.3s;
+
+    &.selected {
+      background-color: #007bff;
+      color: white;
+    }
+
+    &:hover {
+      background-color: #e6f7ff;
+    }
+  }
+
+  &__button {
+    margin-top: 16px;
+    align-self: flex-start;
+    padding: 10px 20px;
+  }
+}
