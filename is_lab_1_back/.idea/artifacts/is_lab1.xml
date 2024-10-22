@@ -1,6 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="exploded-war" name="is-lab1">
-    <output-path>$PROJECT_DIR$/out/artifacts/is_lab1</output-path>
-    <root id="root" />
-  </artifact>
-</component>
